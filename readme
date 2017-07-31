@@ -1,0 +1,27 @@
+#INTRODUCTION
+
+HHConpred has been tested successfully on the 64-bit ubuntu linux system.
+
+#REQUIREMENT
+(1) gcc and g++ compilers;
+(2) python and scikit-learn packages;
+
+Here, the file "train_examples.fa" and "test_examples.fa" are just the examples.
+
+(1) Please prepare the required feature files in the "./train_data/" and "./test_data/" sub-folders, according to the examples in this sub-folders;
+
+(2) Please change directory to the "./codes/" sub-folder, the train features and test features can be extracted by running "python extract_train_features.py ../train_examples.fa" and "python extract_test_features.py ../test_examples.fa", respectively;
+
+(3) The helix-helix interaction prediction results can be found in '../test_results/' sub-folders by running "python HHConPred.py train_feature_file test_fasta_file".
+
+
+Here, the threshold is 0.4983 which is obtained based on the training dataset in our article.
+
+The software package will be further updated for better performance and convenient usage.
+
+#CONTACT
+If you have any questiones, please contact the authors: Dapeng Xiong(dpxiong@live.com), Wenzhi Mao(maowenzhi@yandex.com) and Haipeng Gong(hgong@tsinghua.edu.cn).
+
+Thanks!
+
+Apr 21, 2017

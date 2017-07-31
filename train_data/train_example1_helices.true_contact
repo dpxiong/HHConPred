@@ -1,0 +1,21 @@
+>train_example1
+TTILVVRRNGQTVMGGDGQVTFGSTVLKGNARKVRKLGEGKVLAGFAGSVADAMTLFDRFEAKLREWGGNLTKAAVELAKDWRTDRVLRRLEALLLVADKENIFIISGNGEVIQPDDDAAAIGSGGPYALAAAKALLRNTDLSAREIVEKAMTIAGEICIYTNQNIVIEEV
+CEEEEEEECCEEEEEECCEECCCCEEECCCCCEEEEEECCEEEEEECCCHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHCCCCHHHHHHHHHHHCCCCCEEEEECCCCEECCCCCEEEECCCHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHCCCCCCCEEEEEC
+Helix1: seq_ID(50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66) VADAMTLFDRFEAKLRE
+Helix2: seq_ID(71,72,73,74,75,76,77,78,79,80,81,82) LTKAAVELAKDW
+Helix3: seq_ID(87,88,89,90,91,92,93,94,95,96,97) VLRRLEALLLV
+Helix4: seq_ID(126,127,128,129,130,131,132,133,134,135,136,137,138) GPYALAAAKALLR
+Helix5: seq_ID(144,145,146,147,148,149,150,151,152,153,154,155,156,157,158) AREIVEKAMTIAGEI
+
+# 1: contact  0: no contact
+                   helix:helix        true_contact
+                 Helix1:Helix2                   1
+                 Helix1:Helix3                   0
+                 Helix1:Helix4                   0
+                 Helix1:Helix5                   0
+                 Helix2:Helix3                   1
+                 Helix2:Helix4                   0
+                 Helix2:Helix5                   0
+                 Helix3:Helix4                   0
+                 Helix3:Helix5                   0
+                 Helix4:Helix5                   1
